@@ -1,38 +1,659 @@
-.App {
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+ /* ------------Home CSS------------------ */
+
+
+.icon{
+position: absolute;
+left: 7.0rem;
+top: 30px;
+}
+
+.largeText{
+  position: absolute;
+  font-family: 'Source Sans Pro';
+  left: 80px;
+  top: 200px;
+  width: 315px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #0E2368;
+  line-height: 65px;
+}
+
+.smallText{
+  position: absolute;
+  font-family: 'Source Sans Pro';
+  left: 84px;
+  top: 420px;
+  width: 340px;
+  font-size: 16px;
+  font-weight: 200;
+  color: #444957;
+  line-height: 29px;
+}
+.best{
+ margin-right: 10px;
+  color: #E23744;
+}
+
+.container1{
+  display:flex ;
+}
+
+.rectangle{
+position: absolute;
+right: 0px;
+max-width: 50%;
+}
+
+.vector1{
+  position: absolute;
+  right: 0px;
+  max-width: 50%;
+}
+.getTouchBtn{
+  position: absolute;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 50px;
+  width: 170px;
+  right: 34px;
+  top: 25px;
+  font-weight: 300px;
+  font-size: 22px;
+  padding: 5px;
+}
+.exploreBtn{
+  position: absolute;
+  background-color: #E23744;
+  color: white;
+  border-radius: 50px;
+  width: 200px;
+  left: 84px;
+  top: 525px;
+  font-weight: 500px;
+  font-size: 23px;
+  padding: 10px;
+}
+
+/* ------------About CSS------------------ */
+
+.container2{
+  position: absolute;
+  top: 125vh;
+  height: 57vh;
+  width: 173vh;
+}
+ 
+
+.aboutImg{
+  position: relative;
+  top: 12vh;
+  left: 10vh;
+}
+
+
+.about{
+  position: relative;
+    top: -51vh;
+    left: 85vh;
+    font-size: 43px;
+    font-weight: 700;
+    color: #0E2368;
+    width: 200px;
+}
+.aboutText{
+  position: relative;
+  top: -50vh;
+  right: -85vh;
+  font-size: 20px;
+  font-weight: 400;
+  color: #444957;
+  width: 500px;
+}
+
+
+
+.readMoreBtn{
+  position: relative;
+  background-color: #E23744;
+  color: white;
+  border-radius: 50px;
+  width: 200px;
+  left: 85vh;
+  top: -46vh;
+  font-size: 23px;
+  padding: 10px;
+}
+
+
+
+/* -------------Articles CSS------------------ */
+
+.slick-slide > div{
+margin: 0 40px;
+}
+
+.slick-list{
+  margin: 0 -40px;
+}
+
+
+.container3{
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+  top: 235vh;
+  position: absolute;
+  height: 850px;
+}
+
+.latestArticles{
+  font-family: Source Sans Pro;
+  font-size: 56px;
+  font-weight: 600;
+  color: #0E2368;
+  line-height: 42px;
+  width: 400px;
+  height: 100px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.card{
+  border: 25px solid white;
+  border-radius: 12px;
+  background-color: #FFFFFF;
+  overflow: hidden;
+  top: 30px; 
+  width: 326px;
+  height: 557px;
+
+}
+
+.cardTop > img{
+  width: 100%;
+  height: 100%;
+  
+}
+
+.cardTop h2{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 75px;
+  color: #0E2368;
+}
+
+.cardTop h3{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 27px;
+color: #444957;
+text-align: left;
+}
+
+.cardBottom button{
+  position: relative;
+    color: #424961;
+    border: 1px solid #424961;
+    border-radius: 50px;
+    width: 150px;
+    font-size: 20px;
+    padding: 7px;
+    margin-top: 30px;
+}
+
+
+.slick-prev:before, .slick-next:before{
+  color:red;
+}
+
+
+/* ------------------Contact CSS------------------------ */
+
+
+.column1 {
+  float: left;
+  padding: 10px;
+  height: 300px; 
+  width: 450px;
+ 
+
+}
+.column2 {
+  float: left;
+  padding: 10px;
+  height: 300px; 
+  width: 350px;
+}
+.column3 {
+  float: left;
+  width: 35%;
+  padding: 10px;
+  height: 300px; 
+  width: 270px;
+  
+}
+.column4 {
+  float: left;
+  width: 35%;
+  padding: 10px;
+  height: 300px; 
+  width: 228px;
+  align-items: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row{
+  position: absolute;
+  top: 375vh;
+}
+
+.footIcon{
+position: absolute;
+left: 5rem;
+top: 70px;
+}
+
+.column2 h2{
+  font-family:'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  margin-top: 20px;
+  color: #0E2368;
+}
+
+.column2 p{
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #646874;
+  margin-top: 30px;
+  
+}
+
+.column3 h2{
+  font-family:'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  margin-top: 20px;
+  color: #0E2368;
+}
+
+.column3 p{
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #646874;
+  margin-top: 22px;
+}
+.column4 h2{
+  font-family:'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  margin-top: 20px;
+  color: #0E2368;
+}
+
+.column4 p{
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #646874;
+  margin-top: 165px;
+}
+
+.column4 div{
+  margin-top: 20px;
+
+}
+
+
+.path{
+float: left;
+padding: 10px;
+ line-height: 20px; 
+}
+
+
+
+
+
+
+
+
+/* -----------------1440px------------------------ */
+
+
+@media only screen and (max-width: 1440px){
+
+  .readMoreBtn {
+    left: 80vh;
+    top: -30vh;
+}
+
+.aboutText {
+  top: -37vh;
+  right: -80vh;
+}
+
+.about {
+  top: -40vh;
+  left: 80vh;
+}
+
+.aboutImg {
+  left: 15vh;
+}
+
+.getTouchBtn {
+  right: 77px;
+}
+
+.largeText {
+  left: 110px;
+}
+.smallText {
+  left: 110px;
+}
+
+.exploreBtn {
+  left: 110px;
+}
+
+
+.container3 {
+  top: 190vh;
+}
+.card {
+  height: 570px;
+}
+
+.row {
+  top: 300vh;
+}
+
+.container2 {
+  top: 110vh;
+}
+}
+
+
+
+
+/* ---------------375px------------------------------ */
+
+
+@media only screen and (max-width: 375px){
+
+  .vector1 {
+    position: absolute;
+    width: 375px;
+    height: 477px;
+    max-width: 100%;
+   
+}
+
+.rectangle{
+  position: absolute;
+  width: 375px;
+  height: 450px;
+  max-width: 100%;
+  }
+
+  .getTouchBtn {
+    width: 100px;
+    right: 20px;
+    top: 21px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.icon {
+ display: none;
+}
+
+.largeText {
+  left: 50px;
+  top: 93vh;
+  width: 290px;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.smallText {
+  left: 55px;
+  top: 128vh;
+  width: 270px;
+  font-size: 14px;
+  text-align: center;
+}
+.exploreBtn {
+  width: 170px;
+  left: 106px;
+  top: 143vh;
+  font-size: 20px;
+  padding: 9px;
+}
+
+.aboutImg {
+display: none;
+}
+
+.container2 {
+  position: absolute;
+  top: 170vh;
+  height: 90vh;
+  width: 65vh;
+  background-color: #F0F1F7;
+}
+
+.about {
+  position: absolute;
+  top: 20vh;
+  left: 17vh;
+  font-size: 40px;
+}
+
+.aboutText {
+  position: relative;
+  top: 32vh;
+  left: 5vh;
+  font-size: 14px;
+  font-weight: 300;
+  color: #444957;
+  width: 300px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.readMoreBtn {
+  position: absolute;
+  background-color: #E23744;
   color: white;
+  border-radius: 50px;
+  width: 170px;
+  left: 17vh;
+  top: 60vh;
+  font-size: 20px;
+  padding: 9px;
 }
 
-.App-link {
-  color: #61dafb;
+.container3 {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+  top: 275vh;
+  position: absolute;
+  height: 300vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.latestArticles {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 70px;
+  width: 275px;
+  margin-top: 40px;
+  margin-left: 35px;
+}
+
+.cardTop h3 {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.cardTop h2 {
+  font-size: 18px;
+  line-height: 65px;
+  text-align: center;
+  width: 230px;
+}
+
+.cardBottom button {
+  width: 130px;
+  font-size: 14px;
+  padding: 7px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+
+  .container3{
+    width: 340px;
+    margin: 0 auto;
+    margin-top: 50px;
+    top: 270vh;
+    position: absolute;
+    height: 600px;
+    left: 15px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+  .card {
+    border: 1px solid black;
+    border-radius: 27px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    top: 30px;
+    width: 326px;
+    height: 450px;
+    padding: 15px;
+}
+
+
+.cardTop > img {
+  border-radius: 27px;
+}
+
+
+.column1 {
+  width: 350px;
+}
+
+.row {
+  top: 400vh;
+  width: 370px;
+  height: 1000px;
+  background-color: #F8F8F8;
+
+}
+
+
+.column2 h2 {
+  margin-left: 20px;
+}
+.column2 p {
+  margin-left: 20px;
+}
+.column3 h2 {
+  margin-left: 20px;
+}
+.column3 p {
+  margin-left: 20px;
+}
+
+.column4 p {
+  margin-top: 0px;
+}
+.column4 h2 {
+ display: none;
+}
+
+.column4 p {
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 80px;
+
+}
+.column2 {
+  padding: 10px;
+  height: 300px;
+  width: 281px;
+  position: absolute;
+  top: 35vh;
+
+}
+
+.column3 {
+  padding: 10px;
+  height: 300px
+px
+;
+  width: 270px;
+  position: absolute;
+  top: 93vh;
+}
+
+.column4 {
+  padding: 10px;
+  height: 100px;
+  width: 228px;
+  position: absolute;
+  top: 150vh;
+}
+
+.column4 p {
+  margin-top: -50px;
+  margin-left: 75px;
+  width: 200px;
+}
+
+.path {
+  float: right;
+  padding: 9px;
+}
+
+.footIcon {
+  top: 50px;
+}
+
 }
