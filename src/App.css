@@ -90,6 +90,7 @@ max-width: 50%;
   top: 125vh;
   height: 57vh;
   width: 173vh;
+  background: linear-gradient(90.07deg, rgba(30, 42, 93, 0.04) 30.91%, rgba(48, 62, 130, 0.04) 64.79%, rgba(60, 80, 157, 0.04) 91.94%);
 }
  
 
@@ -356,18 +357,18 @@ padding: 10px;
 @media only screen and (max-width: 1440px){
 
   .readMoreBtn {
-    left: 80vh;
-    top: -30vh;
+    top: -45vh;
+    left: 110vh;
 }
 
 .aboutText {
-  top: -37vh;
-  right: -80vh;
+  top: -50vh;
+  left: 110vh;
 }
 
 .about {
-  top: -40vh;
-  left: 80vh;
+  top: -50vh;
+  left: 110vh;
 }
 
 .aboutImg {
@@ -375,7 +376,7 @@ padding: 10px;
 }
 
 .getTouchBtn {
-  right: 77px;
+  right: 20px;
 }
 
 .largeText {
@@ -391,18 +392,20 @@ padding: 10px;
 
 
 .container3 {
-  top: 190vh;
+  top: 200vh;
 }
 .card {
   height: 570px;
 }
 
 .row {
-  top: 300vh;
+  top: 330vh;
 }
 
 .container2 {
-  top: 110vh;
+  top: 120vh;
+  height: 90vh;
+  width: 1340px;
 }
 }
 
